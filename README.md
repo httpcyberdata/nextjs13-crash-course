@@ -16,7 +16,9 @@ ___________
 3. change API url to match your repos or any GitHub user to show the list of repositories.
 ### Photos of project:
 ![](/public/nextjs-13-cc.gif)
-
+** click a repository and redirect to the RepoPage and shows the repository's name. **
+![](/public/nextjs-13-cc1.gif)
+![](/public/nextjs-13-image1.png)
 ### Apps used:
 Visual Studio Code or (coder slang: VS Code)	[](https://code.visualstudio.com/)
 Google Chrome: [https://www.google.com/chrome/dr/download/](https://www.google.com/chrome/dr/download/)
