@@ -27,7 +27,7 @@ const ReposPage = async () => {
                                 <FaStar /> {repo.stargazers_count}
                             </span>
                             <span>
-                                <FaCodeBranch /> 
+                                <FaCodeBranch /> {repo.forks_count}
                             </span>
                             <span>
                                 <FaEye /> {repo.watchers_count}
