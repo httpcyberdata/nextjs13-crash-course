@@ -3,6 +3,10 @@ import fetch from 'isomorphic-fetch';
 import { FaStar, FaCodeBranch, FaEye } from 'react-icons/fa';
 async function fetchRepos() {
     const response = await fetch('https://api.github.com/users/httpcyberdata/repos');
+
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    // Wait 1 second
+
     const repos = await response.json();
     return repos;
 }
