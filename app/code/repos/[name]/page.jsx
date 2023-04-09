@@ -1,10 +1,14 @@
 import React from 'react';
 import Repo from '@/app/components/Repo';
+import Link from 'next/link';
 const RepoPage = ({ params: { name } }) => {
 
   return (
     <div className="card">
-            <Repo name={name} />
+        <Link href='/code/repos' className="btn btn-back">
+            Back to repositories
+        </Link>
+        <Repo name={name} />
     </div>
   )
 }
