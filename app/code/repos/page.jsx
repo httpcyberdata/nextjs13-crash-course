@@ -2,7 +2,13 @@ import Link from 'next/link';
 import fetch from 'isomorphic-fetch';
 import { FaStar, FaCodeBranch, FaEye } from 'react-icons/fa';
 async function fetchRepos() {
-    const response = await fetch('https://api.github.com/users/httpcyberdata/repos');
+    const response = await fetch('https://api.github.com/users/httpcyberdata/repos',
+     {
+        next: {
+            revalidate: 60
+        }
+     }
+        );
 
     await new Promise((resolve) => setTimeout(resolve, 1000));
     // Wait 1 second
