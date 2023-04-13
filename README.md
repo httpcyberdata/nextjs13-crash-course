@@ -5,17 +5,23 @@ Tutorial description: A complete crash course to NextJS version 13 and it's new 
 ___________
 
 ### Software versions
-
+    nextJS 13.2.4
+    reactJS 18.2.0
+    react-icons 4.8.0
 ### Problems in the project:
-1.
-2.
+N/A
 
 ### How to use
 1. npm install
 2. npm run dev
 3. change API url to match your repos or any GitHub user to show the list of repositories.
 
-API ROUTES
+In-browser routes
+    localhost:3000/code/repos
+    View list of repositories for the GitHub account 'httpcyberdata' and the functionality to click on each repository to view the directories howerver the links to them are non-functional.
+
+
+API ROUTES (use in Postman or other app)
 GET /api/courses/search?query=TEXT
     A GET request to ask for courses in the data.json file that contain the text in the query. For example, query for React course and the TraversyMedia's React Front To Back course appears as it's relevant to the 'REACT' query text
 GET /api/courses
@@ -25,12 +31,15 @@ GET /api/courses
 ![](/public/nextjs13-cc1.gif)
 ![](/public/nextjs-13-cc.gif)
 ![](/public/nextjs-13-image1.png)
+![](/public/nextjs13-cc1.gif)
+
 ### Apps used:
 Visual Studio Code or (coder slang: VS Code)	[](https://code.visualstudio.com/)
 Google Chrome: [https://www.google.com/chrome/dr/download/](https://www.google.com/chrome/dr/download/)
 GitHub CLI: [https://cli.github.com/](https://cli.github.com/) 
 
 ### Coding styles I used:
+N/A
 
 ### What I learned
 1. Using layouts in Nextjs13 is as simple a creating a layout.jsx file and in every child component, the content in the layout.jsx file will persist.
