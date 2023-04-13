@@ -17,14 +17,14 @@ N/A
 3. change API url to match your repos or any GitHub user to show the list of repositories.
 
 In-browser routes
-    localhost:3000/code/repos
+    - localhost:3000/code/repos
     View list of repositories for the GitHub account 'httpcyberdata' and the functionality to click on each repository to view the directories howerver the links to them are non-functional.
 
 
 API ROUTES (use in Postman or other app)
-GET /api/courses/search?query=TEXT
+- GET /api/courses/search?query=TEXT
     A GET request to ask for courses in the data.json file that contain the text in the query. For example, query for React course and the TraversyMedia's React Front To Back course appears as it's relevant to the 'REACT' query text
-GET /api/courses
+- GET /api/courses
     Returns an array of courses.
 
 ### Photos of project:
@@ -34,9 +34,9 @@ GET /api/courses
 ![](/public/nextjs13-cc1.gif)
 
 ### Apps used:
-Visual Studio Code or (coder slang: VS Code)	[](https://code.visualstudio.com/)
-Google Chrome: [https://www.google.com/chrome/dr/download/](https://www.google.com/chrome/dr/download/)
-GitHub CLI: [https://cli.github.com/](https://cli.github.com/) 
+- Visual Studio Code or (coder slang: VS Code)	[](https://code.visualstudio.com/)
+- Google Chrome: [https://www.google.com/chrome/dr/download/](https://www.google.com/chrome/dr/download/)
+- GitHub CLI: [https://cli.github.com/](https://cli.github.com/) 
 
 ### Coding styles I used:
 N/A
