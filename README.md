@@ -14,6 +14,13 @@ ___________
 1. npm install
 2. npm run dev
 3. change API url to match your repos or any GitHub user to show the list of repositories.
+
+API ROUTES
+GET /api/courses/search?query=TEXT
+    A GET request to ask for courses in the data.json file that contain the text in the query. For example, query for React course and the TraversyMedia's React Front To Back course appears as it's relevant to the 'REACT' query text
+GET /api/courses
+    Returns an array of courses.
+
 ### Photos of project:
 ![](/public/nextjs13-cc1.gif)
 ![](/public/nextjs-13-cc.gif)
